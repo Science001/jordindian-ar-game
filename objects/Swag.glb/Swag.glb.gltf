@@ -1,0 +1,281 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.0.5",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Frames_Plane.006"
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "Shadesplastic.001",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.13863635063171387
+            }
+        },
+        {
+            "doubleSided" : true,
+            "name" : "Glossy.001",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.800000011920929,
+                    0.800000011920929,
+                    0.800000011920929,
+                    1
+                ],
+                "metallicFactor" : 1,
+                "roughnessFactor" : 0
+            }
+        },
+        {
+            "doubleSided" : true,
+            "name" : "Lenses.001",
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 0,
+                    "texCoord" : 0
+                },
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.08181819319725037
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Frames_Plane.006",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                },
+                {
+                    "attributes" : {
+                        "POSITION" : 4,
+                        "NORMAL" : 5,
+                        "TEXCOORD_0" : 6
+                    },
+                    "indices" : 7,
+                    "material" : 1
+                },
+                {
+                    "attributes" : {
+                        "POSITION" : 8,
+                        "NORMAL" : 9,
+                        "TEXCOORD_0" : 10
+                    },
+                    "indices" : 11,
+                    "material" : 2
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "source" : 0
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/jpeg",
+            "name" : "Lenses_Base_Color",
+            "uri" : "Lenses_Base_Color.jpg"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 3797,
+            "max" : [
+                0.44912800192832947,
+                0.2885606288909912,
+                0.7213212847709656
+            ],
+            "min" : [
+                -0.44912800192832947,
+                0.013060808181762695,
+                0.04848828911781311
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 3797,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 3797,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 17232,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 104,
+            "max" : [
+                0.4342760145664215,
+                0.25997471809387207,
+                0.6552053093910217
+            ],
+            "min" : [
+                -0.4342760145664215,
+                0.24938178062438965,
+                0.6323363184928894
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5126,
+            "count" : 104,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 6,
+            "componentType" : 5126,
+            "count" : 104,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 7,
+            "componentType" : 5123,
+            "count" : 288,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 8,
+            "componentType" : 5126,
+            "count" : 410,
+            "max" : [
+                0.39282000064849854,
+                0.2683037519454956,
+                0.699012279510498
+            ],
+            "min" : [
+                -0.39282000064849854,
+                0.019977807998657227,
+                0.6446263194084167
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 9,
+            "componentType" : 5126,
+            "count" : 410,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 10,
+            "componentType" : 5126,
+            "count" : 410,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 11,
+            "componentType" : 5123,
+            "count" : 1968,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 45564,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 45564,
+            "byteOffset" : 45564
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 30376,
+            "byteOffset" : 91128
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 34464,
+            "byteOffset" : 121504
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1248,
+            "byteOffset" : 155968
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1248,
+            "byteOffset" : 157216
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 832,
+            "byteOffset" : 158464
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 576,
+            "byteOffset" : 159296
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 4920,
+            "byteOffset" : 159872
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 4920,
+            "byteOffset" : 164792
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 3280,
+            "byteOffset" : 169712
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 3936,
+            "byteOffset" : 172992
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 176928,
+            "uri" : "Swag.glb.bin"
+        }
+    ]
+}

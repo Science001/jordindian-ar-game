@@ -1,0 +1,238 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.2.75",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "94029311-check-keffiyeh-seamless-pattern-traditional-vector-red",
+            "scale" : [
+                0.5860292911529541,
+                0.5860292911529541,
+                0.5860292911529541
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "emissiveFactor" : [
+                0,
+                0,
+                0
+            ],
+            "name" : "94029311-check-keffiyeh-seamless-pattern-traditional-vector-red",
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 0,
+                    "texCoord" : 0
+                },
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.5
+            }
+        },
+        {
+            "doubleSided" : true,
+            "emissiveFactor" : [
+                0,
+                0,
+                0
+            ],
+            "name" : "CLoth",
+            "normalTexture" : {
+                "index" : 1,
+                "scale" : 2,
+                "texCoord" : 0
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 2,
+                    "texCoord" : 0
+                },
+                "metallicFactor" : 0,
+                "roughnessFactor" : 1
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "94029311-check-keffiyeh-seamless-pattern-traditional-vector-red",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                },
+                {
+                    "attributes" : {
+                        "POSITION" : 4,
+                        "NORMAL" : 5,
+                        "TEXCOORD_0" : 6
+                    },
+                    "indices" : 7,
+                    "material" : 1
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "source" : 0
+        },
+        {
+            "source" : 1
+        },
+        {
+            "source" : 2
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/jpeg",
+            "name" : "94029311-check-keffiyeh-seamless-pattern-traditional-vector",
+            "uri" : "94029311-check-keffiyeh-seamless-pattern-traditional-vector.jpg"
+        },
+        {
+            "mimeType" : "image/jpeg",
+            "name" : "shek_normal",
+            "uri" : "shek_normal.jpg"
+        },
+        {
+            "mimeType" : "image/jpeg",
+            "name" : "shek_Albedo",
+            "uri" : "shek_Albedo.jpg"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 273,
+            "max" : [
+                0.40651735663414,
+                0.4721323549747467,
+                0.342261403799057
+            ],
+            "min" : [
+                -0.4237767159938812,
+                -0.8163602948188782,
+                -0.19124442338943481
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 273,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 273,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 1398,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 126,
+            "max" : [
+                0.15201084315776825,
+                0.44221845269203186,
+                0.33777984976768494
+            ],
+            "min" : [
+                -0.13438208401203156,
+                0.3671596944332123,
+                -0.05285755544900894
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5126,
+            "count" : 126,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 6,
+            "componentType" : 5126,
+            "count" : 126,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 7,
+            "componentType" : 5123,
+            "count" : 528,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 3276,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 3276,
+            "byteOffset" : 3276
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 2184,
+            "byteOffset" : 6552
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 2796,
+            "byteOffset" : 8736
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1512,
+            "byteOffset" : 11532
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1512,
+            "byteOffset" : 13044
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1008,
+            "byteOffset" : 14556
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1056,
+            "byteOffset" : 15564
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 16620,
+            "uri" : "HeadCloth.bin"
+        }
+    ]
+}
