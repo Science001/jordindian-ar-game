@@ -139,18 +139,18 @@ function setAvoider(l) {
     l.avoiders.transform.x = currentAvoiderPosition;
     let currentObstacle = strictRandom(0, 3);
     avoiders.forEach((obstacle, index) => (l[obstacle].hidden = index !== currentObstacle));
-    if (!life) {
-        Diagnostics.log("Game Over");
-        drivers.avoiderRotation.stop();
-        drivers.collectorRotation.stop();
-        drivers.roadRotation.stop();
-        drivers.gameOut.start();
-        l.speechBubble.hidden = true;
-        l.text.hidden = true;
-        l.scoreCard.hidden = false;
-        l.scoreText.hidden = false;
-        Patches.inputs.setString("score", collected.toString());
-    }
+        if (!life) {
+            Diagnostics.log("Game Over");
+            drivers.avoiderRotation.stop();
+            drivers.collectorRotation.stop();
+            drivers.roadRotation.stop();
+            drivers.gameOut.start();
+            l.speechBubble.hidden = true;
+            l.text.hidden = true;
+            l.scoreCard.hidden = false;
+            l.scoreText.hidden = false;
+            Patches.inputs.setString("score", collected.toString());
+        }
 }
 
 function onAvoider(l) {
